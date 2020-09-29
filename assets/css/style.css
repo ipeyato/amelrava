@@ -636,6 +636,10 @@ p {
   top: -7px;
 }
 
+#contact {
+  background-color: #fff2d6;
+}
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .navbar-collapse {
     position: absolute;
@@ -717,6 +721,8 @@ p {
     display: block;
     padding: 4px 0;
     color: #38424d;
+    font-size: 20px;
+    margin-bottom: 0.7rem;
   }
 }
 
@@ -1868,11 +1874,10 @@ p.form-message.error.form-message.error {
 }
 
 .contact_wrapper {
-  padding: 80px 110px;
+  padding: 80px;
   -webkit-box-shadow: 0 3px 32px 0 rgba(177, 177, 177, 0.16);
   -moz-box-shadow: 0 3px 32px 0 rgba(177, 177, 177, 0.16);
   box-shadow: 0 3px 32px 0 rgba(177, 177, 177, 0.16);
-  background-color: #fff;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -1883,7 +1888,8 @@ p.form-message.error.form-message.error {
 
 @media (max-width: 767px) {
   .contact_wrapper {
-    padding: 30px;
+    padding: 0px;
+    box-shadow: none;
   }
 }
 
